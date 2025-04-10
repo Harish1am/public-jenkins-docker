@@ -7,7 +7,7 @@ WORKDIR /app
 COPY app.py  .  
 
 # Install dependencies without caching
-RUN pip install --no-cache-dir -r flask
+RUN pip install --no-cache-dir  flask
 
 # Expose the correct port
 EXPOSE 5002
